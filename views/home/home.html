@@ -1,0 +1,313 @@
+<div class="home">
+	<div class="header-tabs row padding-none">
+		<div class="col col-50 header-tab text-center header-tab-active">闲置租赁</div>
+		<div class="col col-50 header-tab text-center">寄卖/回收</div>
+	</div>
+	<div class="lease">
+		<div class="banner-container padding">
+			<!-- 闲置租赁bannner -->
+			<div class="banner clearfix">
+				<ion-slide-box auto-play="true" slide-interval="2000" show-pager="false" does-continue="true">
+				    <ion-slide ng-repeat="item in banner track by $index">
+				      	<img ng-src="{{item.imgsrc}}" alt="图片加载失败" />
+				    </ion-slide>
+				</ion-slide-box>
+				<div class="banner-pray">
+					
+				</div>
+			</div>		
+		</div>
+		<!-- 闲置租赁分类 -->
+		<div class="lease-classify row">
+			<div class="col col-33" ng-click="goState('clothes')">
+				<div class="classify-img">
+					<img src="./images/icons/clothes.png" alt="" />
+				</div>
+				<div class="classify-title text-center">服装鞋帽</div>
+			</div>
+			<div class="col col-33">
+				<div class="classify-img">
+					<img src="./images/icons/ornaments.png" alt="" />
+				</div>
+				<div class="classify-title text-center">包包饰品</div>
+			</div>
+			<div class="col col-33">
+				<div class="classify-img">
+					<img src="./images/icons/daily.png" alt="" />
+				</div>
+				<div class="classify-title text-center">生活用品</div>
+			</div>
+		</div>
+		<!-- 今日租赁 -->
+		<div class="tody-lease padding">
+			<h4 class="tody-lease-title">今日租赁</h4>
+			<div class="row row-wrap">
+				<div class="col col-50 clearfix">
+					<div class="col col-50 padding-none fl">
+						<h4>租大牌</h4>
+						<p class="detail">用大牌不吃土</p>
+						<div class="mark padding-vertical"><img src="./images/mark1.png" alt="" /></div>
+					</div>
+					<div class="col col-50 padding-none fl">
+						<div class="tody-lease-img">
+							<img src="./images/1ee98f7e944767f42f6d239a9a53a8a7f64b6062976aa-Mvi73P_fw658@3x.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="col col-50 clearfix">
+					<div class="col col-50 padding-none fl">
+						<h4>租大牌</h4>
+						<p class="detail">用大牌不吃土</p>
+						<div class="mark padding-vertical"><img src="./images/mark2.png" alt="" /></div>
+					</div>
+					<div class="col col-50 padding-none fl">
+						<div class="tody-lease-img">
+							<img src="./images/194d79bce7317f181875f4470a56fcf41a520c7bb037e-uRHiE8_fw658@3x.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="col col-50 clearfix">
+					<div class="col col-50 padding-none fl">
+						<h4>每日热租</h4>
+						<p class="detail">大家都在租这些</p>
+						<div class="mark padding-vertical"><img src="./images/mark3.png" alt="" /></div>
+					</div>
+					<div class="col col-50 padding-none fl">
+						<div class="tody-lease-img">
+							<img src="./images/77884950f864f86cacf307e97250b5ded0392cd354794-rgAlS0_fw658@3x.png" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="col col-50 clearfix">
+					<div class="col col-50 padding-none fl">
+						<h4>每日热租</h4>
+						<p class="detail">大家都在租这些</p>
+						<div class="mark padding-vertical"><img src="./images/mark3.png" alt="" /></div>
+					</div>
+					<div class="col col-50 padding-none fl">
+						<div class="tody-lease-img">
+							<img src="./images/5628836c8e7f6f3ed97702faa6a9aaa6a7af5e7864d6d-QGktKi_fw658@3x.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 热门租赁 -->
+		<div class="hot-lease padding clearfix">
+			<div>
+				<h4 class="fl light">热门租赁</h4>
+				<h4 class="fr light">
+					全部
+					<i class="icon ion-ios-arrow-right"></i>
+				</h4>
+			</div>
+			<div class="row">
+
+				<div class="col col-50">
+					<div class="hot-lease-product">
+						<div class="hot-lease-list">
+							<img src="./images/product01.png" alt="图片加载失败" />
+							<div class="product-detail">
+								<p>【韩版V领衬衣】</p>
+								<div class="clearfix">
+									<span class="fl user-photo">
+										<img class="user-minphoto user-photo-one" src="./images/user1.png" alt="" />
+										<img class="user-minphoto user-photo-two" src="./images/user2.png" alt="" />
+									</span>
+									<span class="fl">94.3万人在逛</span>
+								</div>							
+							</div>
+						</div>
+						<div class="padding-horizontal">
+							<div class="button button-block button-style light">查看详情</div>
+						</div>				
+					</div>
+				</div>
+
+				<div class="col col-50">
+					<div class="hot-lease-product">
+						<div class="hot-lease-list">
+							<img src="./images/product01.png" alt="图片加载失败" />
+							<div class="product-detail">
+								<p>【韩版V领衬衣】</p>
+								<div class="clearfix">
+									<span class="fl user-photo">
+										<img class="user-minphoto user-photo-one" src="./images/user1.png" alt="" />
+										<img class="user-minphoto user-photo-two" src="./images/user2.png" alt="" />
+									</span>
+									<span class="fl">94.3万人在逛</span>
+								</div>							
+							</div>
+						</div>
+						<div class="padding-horizontal">
+							<div class="button button-block button-style light">查看详情</div>
+						</div>				
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- 分类产品列表 -->
+		<div class="classify-list">
+			<div class="row padding-none classify-menus">
+				<i class="line"></i>
+				<div class="col col-33 padding-none text-center"><span class="classify-menu classify-active">服装鞋帽</span></div>
+				<div class="col col-33 padding-none text-center"><span class="classify-menu">包包饰品</span></div>
+				<div class="col col-33 padding-none text-center"><span class="classify-menu">生活用品</span></div>
+			</div>
+			<ion-slide-box show-pager="false">
+			    <ion-slide>
+
+			    	<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+					
+					<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+			    	
+			    	<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+
+			    	<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+
+			    	<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </ion-slide>
+			    <ion-slide>
+			    	<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </ion-slide>
+			    <ion-slide>
+			    	<div class="products-list padding clearfix">
+			    		<div class="fl product-img">
+			    			<img src="./images/product02.png" alt="" />
+			    		</div>
+			    		<div class="fr product-infor padding">
+			    			<p class="product-name">正版 加厚灯芯绒短款棉衣 针织袖口 保暖棉衣外套</p>
+			    			<div class="requirement">租赁条件：黄金卡会员</div>
+			    			<div class="requirement">所需押金：￥168.00</div>
+			    			<div class="clearfix">
+			    				<span class="fl clearfix collect">
+			    					<span class="minicon fl"><img src="./images/icons/collect.png" alt=""></span>
+			    					<span class=:fl>1122</span>
+			    				</span>
+			    				<span class="fl clearfix looked padding-left">
+			    					<span class="minicon fl"><img src="./images/icons/look.png" alt=""></span>
+			    					<span class=:fl>浏览200次</span>
+			    				</span>
+			    			</div>
+			    		</div>
+			    	</div>
+			    </ion-slide>
+			</ion-slide-box>
+		</div>
+	</div>
+</div>

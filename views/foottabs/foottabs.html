@@ -1,0 +1,35 @@
+<div class="foottabs">
+	<ion-header-bar align-title="center" class="bar-dark">
+	    <div class="buttons">
+	        <button class="button button-clear icon-left ion-ios-arrow-left">返回</button>
+	    </div>
+  		<h1 class="title">首页</h1>
+	    <div class="buttons">
+	        <button class="button button-clear icon ion-ios-more"></button>
+	    </div>
+	</ion-header-bar>
+	<ion-content>
+		<!-- 加载二级路由 -->
+		<div class="view-two" ui-view></div>
+	</ion-content>
+	<div class="footer-tabs row padding-none">
+		<div class="col-33 padding-none">
+			<div class="tab-icon">
+				<img src="./images/icons/homeicon_active.png" alt="小图标加载失败" />
+			</div>
+			<div class="tab-title">首页</div>
+		</div>
+		<div class="col-33 padding-none pushlish-reletive">
+			<div class="tab-icon tab-icon-publish">
+				<img src="./images/icons/publish.png" alt="小图标加载失败" />
+			</div>
+			<div class="tab-title">发布</div>
+		</div>
+		<div class="col-33 padding-none">
+			<div class="tab-icon">
+				<img src="./images/icons/user.png" alt="小图标加载失败" />
+			</div>
+			<div class="tab-title">个人</div>
+		</div>
+	</div>
+</div>

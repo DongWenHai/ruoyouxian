@@ -1,0 +1,129 @@
+.home{
+	padding-bottom: 50px;
+}
+.home .header-tab{
+	height: 44px;
+	line-height: 34px;
+}
+.home .header-tab-active{
+	background: #0eadab;
+	color: #fff;
+	border-bottom: 1px solid #e2e2e2;
+	box-sizing: border-box;
+}
+.home .banner{
+	width: 100%;
+	border-radius: 8px;
+	position: relative;
+}
+.home .banner-pray{
+	width: 100%;
+
+}
+.home .classify-img{
+	width: 40%;
+	max-width: 120px;
+	margin: 0 auto;
+}
+.home .tody-lease-title{
+	border-left: 6px solid #0eadab;
+}
+.home .detail{
+	font-size: 12px;
+}
+.home .hot-lease{
+	background: linear-gradient(to bottom, #568af0, #f482fc);
+}
+.home .hot-lease-list{
+	width: 100%;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.home .product-detail{
+	width: 100%;
+	background-color: #fff;
+	padding: 5px;
+}
+.home .user-photo{
+	width: 32px;
+	height: 20px;
+	position: relative;
+}
+.home .user-minphoto{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.home .user-photo-one{
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+.home .user-photo-two{
+	position: absolute;
+	right: 0;
+	z-index: 0;
+}
+.home .button-style{
+	background-color: #0eadab;
+	box-shadow: 0px 0px 8px rgba(0,158,158,.6);
+}
+.home .classify-menus{	
+	position: relative;
+}
+.home .classify-menu{
+	display: inline-block;
+	line-height: 44px;
+}
+.home .line{
+	width: 100%;
+	height: 0;
+	border-bottom: 1px solid #e2e2e2;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.home .classify-active{
+	color: #00a4a2;
+	border-bottom: 1px solid #00a4a2;
+}
+.home .product-img{
+	width: 40%;
+	border-radius: 6px;
+}
+.home .product-img>img{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.home .product-infor{
+	width: 60%;
+}
+.home .product-name{
+
+}
+.home .requirement{
+	color: #666;
+	font-size: 12px;
+}
+.home .minicon{
+	display: inline-block;
+	width: 14px;
+	height: 20px;
+	position: relative;
+}
+.home .minicon>img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.home .collect,.looked{
+	font-size: 12px;
+	color: #666;
+	line-height: 20px;
+}
